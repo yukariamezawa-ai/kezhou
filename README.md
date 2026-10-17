@@ -15,7 +15,7 @@
   <b>沉浸探索</b> • <b>0ms秒采</b> • <b>运镜打标</b> • <b>加密私密库</b> • <b>防随手翻看</b>
 </p>
 
-[下载最新 APK](https://github.com/yukariamezawa-ai/kezhou/releases/latest) • [核心特性](#-核心特性) • [界面预览](#-应用预览) • [安全与威胁模型](#-安全边界与威胁模型) • [部署指南](#-轻量云端部署)
+[下载最新 APK](https://github.com/yukariamezawa-ai/kezhou/releases/latest) • [核心特性](#-核心特性) • [界面预览](#-应用预览) • [隐私安全说明](#-隐私安全说明)
 
 ---
 
@@ -35,16 +35,16 @@
         <img src="assets/screenshots/02_inspo_board.png" width="100%" alt="灵感板" />
       </td>
       <td align="center" width="20%">
-        <b>3. 免费体验与卡密激活</b><br/>
-        <img src="assets/screenshots/03_quota_license.png" width="100%" alt="配额弹窗" />
+        <b>3. 高清分镜与离线存档</b><br/>
+        <img src="assets/screenshots/05_shot_detail.png" width="100%" alt="分镜详情" />
       </td>
       <td align="center" width="20%">
         <b>4. 诱饵计算器伪装层</b><br/>
         <img src="assets/screenshots/04_decoy_disguise.png" width="100%" alt="计算器伪装" />
       </td>
       <td align="center" width="20%">
-        <b>5. 镜头参数与离线存档</b><br/>
-        <img src="assets/screenshots/05_shot_detail.png" width="100%" alt="分镜详情" />
+        <b>5. 专属特权与授权管理</b><br/>
+        <img src="assets/screenshots/03_quota_license.png" width="100%" alt="特权激活" />
       </td>
     </tr>
   </table>
@@ -66,13 +66,13 @@
 
 ### 🎭 3. 随手翻看免疫与多级伪装
 - **纯净浏览器外表**：桌面图标与应用名呈现为标准创作探索浏览器，主界面零任何敏感词汇；
-- **隐藏暗门直达**：在地址栏输入 `kezhou://vault` 或在设置界面连点 5 次版本号即可进入隐藏媒体库；
+- **专属私密直达**：内置防窥暗门交互体系，仅持有专属入口指令方可唤醒隐藏媒体库；
 - **诱饵锁屏集成**：支持无缝启用诱饵计算器伪装，输入专属暗号 PIN 码方可进入真实面板。
 
-### 💎 4. 终端离线配额与授权鉴权
-- **低门槛免费试用**：每台终端原生享有 **10 次** 免费离线保存与存档体验；
-- **灵活卡密升级**：配额耗尽后支持一键输入卡密解锁无限存储特权；
-- **云端与离线双模容灾**：支持接入 Cloudflare Workers（每天 10 万次免费调用）实现全球云端核销，网络离线时本地自动安全降级。
+### 💎 4. 专属会员与本地无限存档
+- **无感启动体验**：开箱即用，畅享高速灵感采集与本地媒体归档；
+- **高阶特权支持**：支持会员卡密一键激活，解锁无限离线保存与长期资产库管理；
+- **本地安全容灾**：即使在无网或弱网环境下，本地加密保护层依然严格守护数据资产。
 
 ---
 
@@ -90,34 +90,11 @@
 
 ---
 
-## 🔒 安全边界与威胁模型
+## 🔒 隐私安全说明
 
-为了保证信息透明与用户知情权，刻舟坚持诚实披露安全边界：
-
-- ✅ **防得住：随手翻看手机的人**  
-  手机借给朋友/同事时，桌面图标、主界面菜单无任何异常，相册与文件管理器检索不到任何已保存媒体，通知栏无内容泄露。
-- ⚠️ **部分防住：拿到已解锁手机且懂行的人**  
-  不知道 `kezhou://vault` 暗门指令与版本号连击触发点的人无法找到入口；建议在设置中开启「诱饵计算器锁」进一步防范。
-- ❌ **不防：专业物理取证与 Root 提权**  
-  离线媒体存储于 Android 应用私有沙箱路径，未进行多重分块切片加密，具备 Root 权限或专业取证设备可以直接通过底层提取。
-
----
-
-## ☁️ 轻量云端部署 (Cloudflare Workers)
-
-本项目自带完整的 0 成本服务端脚本，用于终端 10 次配额管理与卡密发售核销：
-
-1. 打开 [Cloudflare 控制台](https://dash.cloudflare.com/)；
-2. 新建 KV 命名空间 `QUOTA_KV`；
-3. 新建 Worker 并粘贴本项目中的 `cloudflare-worker/worker.js` 代码；
-4. 绑定 KV 即可获得高可用无服务器后端，每天 100,000 次请求免费。
-
-管理员可通过一行命令批量生成卡密并导入自动发货平台：
-```bash
-curl -X POST https://your-worker.workers.dev/api/admin/generate-keys \
-  -H "Authorization: Bearer your_admin_secret" \
-  -d '{"count": 50, "prefix": "KB"}'
-```
+- ✅ **防随手翻看**：手机借给他人时，桌面图标、主界面菜单无任何异常，相册与文件管理器检索不到任何已保存媒体，通知栏无内容泄露。
+- 🛡️ **底层硬件级保护**：私密库数据由 SQLCipher 与 Android Keystore 联合保护，杜绝直接导出明文数据库。
+- 💡 **本地创作至上**：所有灵感分镜、提示词与视频完全保存在用户设备本地，不强制上传第三方服务器。
 
 ---
 
