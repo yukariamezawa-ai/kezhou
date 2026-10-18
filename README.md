@@ -12,7 +12,7 @@
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/yukariamezawa-ai/kezhou/releases)
 
 <p align="center">
-  <b>沉浸探索</b> • <b>0ms秒采</b> • <b>运镜打标</b> • <b>加密私密库</b> • <b>防随手翻看</b>
+  <b>核心功能全免费</b> • <b>沉浸探索</b> • <b>0ms秒采</b> • <b>运镜打标</b> • <b>4K与私密相册特权</b> • <b>防随手翻看</b>
 </p>
 
 [下载最新 APK](https://github.com/yukariamezawa-ai/kezhou/releases/latest) • [核心特性](#-核心特性) • [界面预览](#-应用预览) • [隐私安全说明](#-隐私安全说明)
@@ -43,8 +43,8 @@
         <img src="assets/screenshots/04_decoy_disguise.png" width="100%" alt="计算器伪装" />
       </td>
       <td align="center" width="20%">
-        <b>5. 专属特权与授权管理</b><br/>
-        <img src="assets/screenshots/03_quota_license.png" width="100%" alt="特权激活" />
+        <b>5. 激励特权与授权管理</b><br/>
+        <img src="assets/screenshots/03_quota_license.png" width="100%" alt="特权管理" />
       </td>
     </tr>
   </table>
@@ -69,10 +69,14 @@
 - **专属私密直达**：内置防窥暗门交互体系，仅持有专属入口指令方可唤醒隐藏媒体库；
 - **诱饵锁屏集成**：支持无缝启用诱饵计算器伪装，输入专属暗号 PIN 码方可进入真实面板。
 
-### 💎 4. 专属会员与本地无限存档
-- **无感启动体验**：开箱即用，畅享高速灵感采集与本地媒体归档；
-- **高阶特权支持**：支持会员卡密一键激活，解锁无限离线保存与长期资产库管理；
-- **本地安全容灾**：即使在无网或弱网环境下，本地加密保护层依然严格守护数据资产。
+### 💎 4. 基础全免体验与双轨制高阶特权
+- **日常全免，无套路畅享**：主流高清画质（720P / 1080P 音视频解析与导出）、全网 AI 社区秒级灵感采摘、提示词工坊、基础离线媒体库**完全免费且不限次数**，绝不搞“试用期满强制逼单”，把白嫖体验做踏实；
+- **两大高阶 Pro 特权**：
+  - 🎬 **4K / 8K / 60FPS 超清原画解析**：面向视听极客与二次剪辑创作者的画质无损解析与音画自动合成；
+  - 🛡️ **KuroBox 硬件级加密私密相册**：SQLCipher 256 位全库加密、隔离系统相册、通知栏脱敏与诱饵计算器伪装；
+- **良心解锁机制（免掏钱也能白嫖）**：
+  - 🎁 **广告激励特权（免费白嫖）**：观看一段赞助视频，即可**免费解锁 24 小时完整 Pro 特权**（畅享 4K 超清下载与私密相册全部功能），无任何强制消费；
+  - 💎 **创始赞助买断**：支持输入赞助卡密一键永久激活 Pro，享受纯净零广告和终身特权。
 
 ---
 
@@ -80,13 +84,18 @@
 
 | 安装包 (APK) | 适用芯片架构 | 推荐场景 | 安装包大小 | 下载直链 |
 | :--- | :--- | :--- | :--- | :--- |
-| **`KeZhou-1.9.0-arm64-v8a-release-github.apk`** | **arm64-v8a** | **强烈推荐（95% 现代安卓手机）** | **~66.9 MB** | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-arm64-v8a-release-github.apk) |
-| `KeZhou-1.9.0-universal-release-github.apk` | 全部架构一体包 | 兼容未知或全部机型 | ~207.0 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-universal-release-github.apk) |
-| `KeZhou-1.9.0-armeabi-v7a-release-github.apk` | armeabi-v7a | 老旧 32 位安卓机型 | ~56.3 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-armeabi-v7a-release-github.apk) |
-| `KeZhou-1.9.0-x86_64-release-github.apk` | x86_64 | PC 安卓模拟器 / ChromeOS | ~62.1 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-x86_64-release-github.apk) |
+| **`KeZhou-1.9.0-arm64-v8a-release-github.apk`** | **arm64-v8a** | **强烈推荐（95% 现代安卓手机）** | **~67.1 MB** | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-arm64-v8a-release-github.apk) |
+| `KeZhou-1.9.0-universal-release-github.apk` | 全部架构一体包 | 兼容未知或全部机型 | ~207.2 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-universal-release-github.apk) |
+| `KeZhou-1.9.0-armeabi-v7a-release-github.apk` | armeabi-v7a | 老旧 32 位安卓机型 | ~56.4 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-armeabi-v7a-release-github.apk) |
+| `KeZhou-1.9.0-x86_64-release-github.apk` | x86_64 | PC 安卓模拟器 / ChromeOS | ~62.2 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-x86_64-release-github.apk) |
+| `KeZhou-1.9.0-x86-release-github.apk` | x86 | 32 位 PC 安卓模拟器 | ~61.5 MB | [点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.0/KeZhou-1.9.0-x86-release-github.apk) |
 
 > 校验完整性（SHA-256）：  
-> `2BC092EB96B69C3D90E300F1136295EF00CE48F2538576CF369D7F0A561F06BF`（arm64-v8a）
+> - `KeZhou-1.9.0-arm64-v8a-release-github.apk`: `08FB6C60300A4F33CF2C136B8AC9BE929CD116C0FDA5DF01A0B5F62897A4246E`  
+> - `KeZhou-1.9.0-universal-release-github.apk`: `C5C7C64DC24B3BD76372BC4BB09CB5B51749439FB498E3E8E6DE4628B21149FE`  
+> - `KeZhou-1.9.0-armeabi-v7a-release-github.apk`: `DEB9FE650080DB12EF51251181DFCF100711A0D2048DBFC87D277DA5414EBB75`  
+> - `KeZhou-1.9.0-x86_64-release-github.apk`: `D69CEC23EB060EE785C22E906BD4F934C3606E55D77A1B7A0D6825C81E11408A`  
+> - `KeZhou-1.9.0-x86-release-github.apk`: `75D67AAC251EFABBD695732BDB527CB067A6817DDC651DA45389F7BD7A4D40E4`
 
 ---
 
