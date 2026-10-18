@@ -14,6 +14,10 @@
 
 <br/>
 
+**[ 🇨🇳 简体中文 ](README.md)** &nbsp;|&nbsp; **[ 🇬🇧 English ](README-en.md)**
+
+<br/>
+
 **[ 📥 立即下载 APK ](https://github.com/yukariamezawa-ai/kezhou/releases/latest)** &nbsp;•&nbsp; 
 **[ 📖 为什么做它？ ](#-写在前面)** &nbsp;•&nbsp; 
 **[ ✨ 功能亮点 ](#-它能为你做什么)** &nbsp;•&nbsp; 
