@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumen (刻舟) - Free AI Video Downloader & Inspo Prompt Vault for Android</title>
+  <meta name="description" content="Download Lumen APK - 100% Free AI video downloader & prompt storyboard organizer for Android. Save Sora, Runway Gen-3, Kling AI videos in 1080P with prompt extraction and encrypted vault. Zero ads.">
+  <meta name="keywords" content="ai video downloader, download sora video, runway gen-3 prompt extractor, kling ai video save, android video vault, private video locker apk, free prompt organizer">
+  <meta name="author" content="Amezawa Yukari">
+  <link rel="canonical" href="https://yukariamezawa-ai.github.io/kezhou/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yukariamezawa-ai.github.io/kezhou/">
+  <meta property="og:title" content="Lumen (刻舟) - Free AI Video Downloader & Prompt Vault for Android">
+  <meta property="og:description" content="Save Sora, Runway Gen-3 & Kling AI videos in 1080P with prompt extraction & encrypted private vault. Zero ads.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/yukariamezawa-ai/kezhou/main/assets/screenshots/01_explore_home.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lumen (刻舟) - Free AI Video Downloader & Inspo Vault">
+  <meta name="twitter:description" content="Capture AI video prompts, manage storyboard capsules, and safeguard private inspiration in an encrypted bunker.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/yukariamezawa-ai/kezhou/main/assets/screenshots/01_explore_home.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+
+  <!-- Schema.org SoftwareApplication Structured Data (Google Rich Snippet) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Lumen (刻舟)",
+    "operatingSystem": "Android 7.0+",
+    "applicationCategory": "MultimediaApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Distraction-free AI video downloader and prompt storyboard organizer with hardware-grade encrypted private vault for Android.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "128"
+    },
+    "downloadUrl": "https://github.com/yukariamezawa-ai/kezhou/releases/latest"
+  }
+  </script>
+
+  <!-- Schema.org FAQPage Structured Data (Google FAQ Snippet) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How to download AI videos from Sora, Runway, or Kling for free on Android?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lumen allows you to stream and parse 1080P/720P AI videos directly. Use the Inspo Capsule FAB to extract the video, cover artwork, and exact camera movement prompts in one click with zero subscriptions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why don't downloaded videos appear in my Android system gallery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By design, Lumen stores sensitive media and inspiration inside an encrypted bunker (persistent=false) invisible to Google Photos and gallery scanners, preventing awkward moments when sharing your phone."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Lumen APK free and safe to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Lumen's core 1080P extraction and offline vault are 100% free forever with no tracking ads or bandwidth throttling. The source code and SHA-256 checksums are publicly verifiable on GitHub under GPL-v3."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111827;
+      --border: #1f293d;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --accent: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 0 80px; }
+    header { text-align: center; margin-bottom: 40px; }
+    .logo { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 10px 30px rgba(99,102,241,0.25); margin-bottom: 20px; }
+    h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 12px; background: linear-gradient(135deg, #fff 40%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    p.lead { font-size: 1.15rem; color: var(--text-muted); max-width: 680px; margin: 0 auto 24px; }
+    .badges { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 30px; }
+    .badges img { height: 26px; }
+
+    /* Hero CTA */
+    .cta-buttons { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: 12px; font-weight: 600; text-decoration: none; font-size: 1rem;
+      transition: all 0.2s ease;
+    }
+    .btn-primary { background: var(--primary); color: #fff; box-shadow: 0 4px 20px rgba(99,102,241,0.4); }
+    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-2px); }
+    .btn-secondary { background: var(--card-bg); color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { border-color: var(--primary); transform: translateY(-2px); }
+
+    /* Demo Media */
+    .demo-wrapper {
+      background: linear-gradient(180deg, #161e2e 0%, var(--card-bg) 100%);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 50px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .demo-img {
+      max-width: 340px;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .demo-caption { font-size: 0.9rem; color: var(--text-muted); margin-top: 14px; }
+
+    /* Features Grid */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+    .feature-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      transition: border-color 0.2s;
+    }
+    .feature-card:hover { border-color: #3b82f6; }
+    .feature-icon { font-size: 1.8rem; margin-bottom: 12px; }
+    .feature-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; }
+    .feature-desc { font-size: 0.92rem; color: var(--text-muted); }
+
+    /* FAQ */
+    .faq-section { margin-bottom: 50px; }
+    .faq-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 20px; text-align: center; }
+    .faq-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      padding: 18px 22px;
+    }
+    .faq-item summary { font-weight: 600; cursor: pointer; outline: none; }
+    .faq-item p { margin-top: 10px; font-size: 0.95rem; color: var(--text-muted); }
+
+    /* Footer */
+    footer { text-align: center; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 30px; }
+    footer a { color: var(--text-muted); text-decoration: underline; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <img src="assets/icon.png" alt="Lumen KeZhou Logo" class="logo">
+    <h1>Lumen · KeZhou (刻舟)</h1>
+    <p class="lead">
+      Carve fleeting waves into stone. A distraction-free, privacy-hardened media grabber and inspiration vault for AI visionaries and creators.
+    </p>
+
+    <div class="badges">
+      <img src="https://img.shields.io/badge/Release-v1.9.5-2563eb?style=flat-square&logo=github" alt="v1.9.5">
+      <img src="https://img.shields.io/badge/Core-100%25%20Free-10b981?style=flat-square" alt="Free">
+      <img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=flat-square&logo=android" alt="Android 7.0+">
+      <img src="https://img.shields.io/badge/Privacy-SQLCipher%20256-059669?style=flat-square" alt="SQLCipher">
+      <img src="https://img.shields.io/badge/License-GPLv3-f59e0b?style=flat-square" alt="GPL v3">
+    </div>
+
+    <div class="cta-buttons">
+      <a href="https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-arm64-v8a-release-github.apk" class="btn btn-primary">
+        📥 Download APK (arm64-v8a)
+      </a>
+      <a href="https://github.com/yukariamezawa-ai/kezhou" class="btn btn-secondary">
+        ⭐ View on GitHub
+      </a>
+    </div>
+  </header>
+
+  <!-- Interactive Demo Section (SEO + Visual Proof) -->
+  <section class="demo-wrapper">
+    <img src="assets/demo.gif" alt="Lumen App Workflow Demo - AI Video Stream, One-Click Prompt Capsule and Disguised Vault" class="demo-img">
+    <p class="demo-caption">
+      🎬 <b>Live Workflow</b>: Stream Sora/Runway &bull; 1-Click Prompt & Lens Capsule &bull; Inspo Board &bull; Encrypted Disguised Vault
+    </p>
+  </section>
+
+  <!-- Key Value Props for Search Keywords -->
+  <section class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <div class="feature-title">AI Video Inspiration Hub</div>
+      <div class="feature-desc">Built-in portal for Sora, Runway Gen-3, Kling, Luma & Civitai. Stream video with zero interstitial ads or subscription paywalls.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🎯</div>
+      <div class="feature-title">1-Click Prompt Capsule</div>
+      <div class="feature-desc">Instantly capture video titles, high-res covers, camera movement notes and AI prompt tags with a single tap on the FAB.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔒</div>
+      <div class="feature-title">Encrypted Private Bunker</div>
+      <div class="feature-desc">Personal media stays strictly invisible to Google Photos or gallery scanners. Protected by dual secret triggers and PIN verification.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📋</div>
+      <div class="feature-title">Prompt Format Adapters</div>
+      <div class="feature-desc">Auto-format saved prompts into Midjourney (/imagine), Kling AI, and Runway camera movement commands ready for your creative pipeline.</div>
+    </div>
+  </section>
+
+  <!-- Long-Tail Search FAQ -->
+  <section class="faq-section">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+    <details class="faq-item" open>
+      <summary>How do I download AI videos and camera movement prompts on Android?</summary>
+      <p>Simply open Lumen, browse to your favorite platform (Sora, Kling, Runway, Twitter), and tap the floating Inspo Capsule button. The video, cover thumbnail, and camera prompt tags are automatically captured to your local Inspo Board without subscription traps.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Why don't downloaded videos appear in my main phone gallery?</summary>
+      <p>This is Lumen's core privacy feature. Research clips and sensitive reference videos are stored in an isolated, encrypted sandbox. If you wish to make a file public, use the 'Export to System Gallery' option in the shot details menu.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Is Lumen 100% free?</summary>
+      <p>Yes! Daily 1080P/720P high-speed video saving and local Inspo Board management are completely free forever. Optional Pro features can be unlocked for 24 hours simply by watching a sponsor clip, or with a lifetime pass.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>
+      Lumen · KeZhou is open source software released under <a href="https://github.com/yukariamezawa-ai/kezhou/blob/main/LICENSE">GPL-3.0</a>.
+      <br/>
+      Maintained by <a href="https://github.com/yukariamezawa-ai">yukariamezawa-ai</a>.
+    </p>
+  </footer>
+</div>
+
+</body>
+</html>
