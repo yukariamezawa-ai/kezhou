@@ -30,6 +30,15 @@
 **[ 💎 Free vs. Pro ](#free-vs-pro)** &nbsp;•&nbsp; 
 **[ ❓ FAQ ](#faq)**
 
+<br/>
+
+<p align="center">
+  <img src="assets/demo.gif" width="340" alt="Lumen KeZhou Demo - Free AI Video Downloader, Inspo Board and Encrypted Media Vault for Android APK" />
+  <br/>
+  <sub>🎬 <b>Workflow Demo</b>: Stream Sora/Runway &bull; 1-Click Prompt Capture &bull; Storyboard Board &bull; Encrypted Vault</sub>
+</p>
+
+
 ---
 
 </div>
@@ -126,27 +135,27 @@ I despise tools that bait users with "free" promises only to turn around and hol
 
 ## <a id="download"></a>📥 Download & Get Started
 
-> 🆕 **v1.9.3** — Private-space wording no longer leaks the unlock path or default PIN; keyboard now dismisses on navigation and Back no longer exits the app; the Capture sheet keeps your tags and notes.
+> 🆕 **v1.9.5** — Enhanced component security & Intent hardening; full WebView crash-guard with onRenderProcessGone; zero Android Lint errors; PIN authenticator dialog improvements & multi-device cloud snapshot conflict merger.
 
 Choose the APK tailored to your device's CPU architecture:
 
 | Package (APK) | Architecture | Recommended For | File Size | Direct Download |
 | :--- | :--- | :--- | :---: | :--- |
-| **`KeZhou-1.9.3-arm64-v8a-release-github.apk`** | **arm64-v8a** | **Recommended (95%+ Modern Android Phones)** | **~67.1 MB** | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-arm64-v8a-release-github.apk) |
-| `KeZhou-1.9.3-universal-release-github.apk` | Universal All-in-One | Older phones or when architecture is unknown | ~207.2 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-universal-release-github.apk) |
-| `KeZhou-1.9.3-armeabi-v7a-release-github.apk` | armeabi-v7a | Legacy 32-bit Android devices | ~56.4 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-armeabi-v7a-release-github.apk) |
-| `KeZhou-1.9.3-x86_64-release-github.apk` | x86_64 | PC Android Emulators / ChromeOS | ~62.2 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-x86_64-release-github.apk) |
-| `KeZhou-1.9.3-x86-release-github.apk` | x86 | Legacy 32-bit PC Emulators | ~61.5 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-x86-release-github.apk) |
+| **`KeZhou-1.9.5-arm64-v8a-release-github.apk`** | **arm64-v8a** | **Recommended (95%+ Modern Android Phones)** | **~67.1 MB** | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-arm64-v8a-release-github.apk) |
+| `KeZhou-1.9.5-universal-release-github.apk` | Universal All-in-One | Older phones or when architecture is unknown | ~207.2 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-universal-release-github.apk) |
+| `KeZhou-1.9.5-armeabi-v7a-release-github.apk` | armeabi-v7a | Legacy 32-bit Android devices | ~56.4 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-armeabi-v7a-release-github.apk) |
+| `KeZhou-1.9.5-x86_64-release-github.apk` | x86_64 | PC Android Emulators / ChromeOS | ~62.2 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-x86_64-release-github.apk) |
+| `KeZhou-1.9.5-x86-release-github.apk` | x86 | Legacy 32-bit PC Emulators | ~61.5 MB | [👉 Download](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-x86-release-github.apk) |
 
 <details>
 <summary><b>🔍 View Package SHA-256 Checksums</b></summary>
 
 ```text
-FEDDDDB1DCAF114F3CC3D91A99A7DD1A7A57475CD210318FD70F5050FD88D274  KeZhou-1.9.3-arm64-v8a-release-github.apk
-6646CE818C5A1D8EE7A306BDF622C6F8FD0C87BEB069ACDC4A4B68CFA61A3916  KeZhou-1.9.3-universal-release-github.apk
-9139A553B5AB7C944C591FD9F60A7742C1849F1A4F5484D8CCDC0515AF9F20E8  KeZhou-1.9.3-armeabi-v7a-release-github.apk
-9BD7CD07807B9EDA204CF179CE4AD7056692C4F78D7A2E9064A8DEF827916C35  KeZhou-1.9.3-x86_64-release-github.apk
-CFD96BB89849DA3CF196B2AD2FE41358379A4C67D2AE0623F39AA7B6648CEE85  KeZhou-1.9.3-x86-release-github.apk
+F4C554EBC22F379952E340EE9E5180250A0DEF5E0966EE9581A440FF6A0D0D61  KeZhou-1.9.5-arm64-v8a-release-github.apk
+8740F057D1A05F4C14696ADB5A19AFC4E08F07D982CF7071A6A07D2AF9CAB983  KeZhou-1.9.5-universal-release-github.apk
+735D84A2D61F595E484A363A460CC217AB7F401C93AFF98D37996D4802741610  KeZhou-1.9.5-armeabi-v7a-release-github.apk
+31DB317D079B0574152E4C0A4B6FDB6C65454EBE9BA8156B016142E206DEBDAC  KeZhou-1.9.5-x86_64-release-github.apk
+AFD6631E3C99423DECFAC212F45F217B86442F3F8188DE54DA3D8222D587A21D  KeZhou-1.9.5-x86-release-github.apk
 ```
 </details>
 

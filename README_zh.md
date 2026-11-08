@@ -30,6 +30,15 @@
 **[ 💎 免费与赞助 ](#free-vs-pro)** &nbsp;•&nbsp; 
 **[ ❓ 常见疑问 ](#faq)**
 
+<br/>
+
+<p align="center">
+  <img src="assets/demo.gif" width="340" alt="刻舟 Lumen 操作演示 - 免翻车 AI 视频分镜下载器与私密灵感保险箱 (Android APK)" />
+  <br/>
+  <sub>🎬 <b>操作演示</b>：Sora / 可灵 视频在线采摘 &bull; 一键提取分镜与提示词 &bull; 双列分镜板 &bull; 伪装保险箱</sub>
+</p>
+
+
 ---
 
 </div>
@@ -132,21 +141,21 @@
 
 | 安装包 (APK) | 适用芯片架构 | 推荐场景 | 体积 | 下载直链 |
 | :--- | :--- | :--- | :---: | :--- |
-| **`KeZhou-1.9.3-arm64-v8a-release-github.apk`** | **arm64-v8a** | **强烈推荐（95% 以上现代安卓手机）** | **~67.1 MB** | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-arm64-v8a-release-github.apk) |
-| `KeZhou-1.9.3-universal-release-github.apk` | 全架构通用包 | 兼容老机型或不清楚架构时使用 | ~207.2 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-universal-release-github.apk) |
-| `KeZhou-1.9.3-armeabi-v7a-release-github.apk` | armeabi-v7a | 老旧 32 位低配安卓设备 | ~56.4 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-armeabi-v7a-release-github.apk) |
-| `KeZhou-1.9.3-x86_64-release-github.apk` | x86_64 | 电脑安卓模拟器 / ChromeOS | ~62.2 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-x86_64-release-github.apk) |
-| `KeZhou-1.9.3-x86-release-github.apk` | x86 | 32 位电脑安卓模拟器 | ~61.5 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.3/KeZhou-1.9.3-x86-release-github.apk) |
+| **`KeZhou-1.9.5-arm64-v8a-release-github.apk`** | **arm64-v8a** | **强烈推荐（95% 以上现代安卓手机）** | **~67.1 MB** | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-arm64-v8a-release-github.apk) |
+| `KeZhou-1.9.5-universal-release-github.apk` | 全架构通用包 | 兼容老机型或不清楚架构时使用 | ~207.2 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-universal-release-github.apk) |
+| `KeZhou-1.9.5-armeabi-v7a-release-github.apk` | armeabi-v7a | 老旧 32 位低配安卓设备 | ~56.4 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-armeabi-v7a-release-github.apk) |
+| `KeZhou-1.9.5-x86_64-release-github.apk` | x86_64 | 电脑安卓模拟器 / ChromeOS | ~62.2 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-x86_64-release-github.apk) |
+| `KeZhou-1.9.5-x86-release-github.apk` | x86 | 32 位电脑安卓模拟器 | ~61.5 MB | [👉 点击下载](https://github.com/yukariamezawa-ai/kezhou/releases/download/v1.9.5/KeZhou-1.9.5-x86-release-github.apk) |
 
 <details>
 <summary><b>🔍 查看安装包 SHA-256 完整性校验码</b></summary>
 
 ```text
-FEDDDDB1DCAF114F3CC3D91A99A7DD1A7A57475CD210318FD70F5050FD88D274  KeZhou-1.9.3-arm64-v8a-release-github.apk
-6646CE818C5A1D8EE7A306BDF622C6F8FD0C87BEB069ACDC4A4B68CFA61A3916  KeZhou-1.9.3-universal-release-github.apk
-9139A553B5AB7C944C591FD9F60A7742C1849F1A4F5484D8CCDC0515AF9F20E8  KeZhou-1.9.3-armeabi-v7a-release-github.apk
-9BD7CD07807B9EDA204CF179CE4AD7056692C4F78D7A2E9064A8DEF827916C35  KeZhou-1.9.3-x86_64-release-github.apk
-CFD96BB89849DA3CF196B2AD2FE41358379A4C67D2AE0623F39AA7B6648CEE85  KeZhou-1.9.3-x86-release-github.apk
+F4C554EBC22F379952E340EE9E5180250A0DEF5E0966EE9581A440FF6A0D0D61  KeZhou-1.9.5-arm64-v8a-release-github.apk
+8740F057D1A05F4C14696ADB5A19AFC4E08F07D982CF7071A6A07D2AF9CAB983  KeZhou-1.9.5-universal-release-github.apk
+735D84A2D61F595E484A363A460CC217AB7F401C93AFF98D37996D4802741610  KeZhou-1.9.5-armeabi-v7a-release-github.apk
+31DB317D079B0574152E4C0A4B6FDB6C65454EBE9BA8156B016142E206DEBDAC  KeZhou-1.9.5-x86_64-release-github.apk
+AFD6631E3C99423DECFAC212F45F217B86442F3F8188DE54DA3D8222D587A21D  KeZhou-1.9.5-x86-release-github.apk
 ```
 </details>
 
